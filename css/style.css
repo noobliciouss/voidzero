@@ -1,0 +1,150 @@
+
+body {
+    font-family: 'Tektur', sans-serif;
+    background-color: #000; 
+    color: #9dbcff;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #545454;
+}
+
+header img {
+    max-height: 150px;
+}
+
+header h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #b8adff;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: #ec5e5e;
+}
+
+
+nav {
+    margin: 20px 0;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: #d0beff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav ol li a:hover {
+    background-color: #333;
+    color: #00ff00;
+}
+
+/* Main Section */
+main {
+    margin: 20px 0;
+}
+
+main h1, main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #ec5e5e;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-size: 1.2em;
+    color: #e3e3e3e2;
+    line-height: 1.8;
+}
+
+main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    border-top: 2px solid #333;
+}
+
+footer nav ol {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav ol li a {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+footer nav ol li a:hover {
+    color: #e50914;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+
+hr {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ol {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    main h2 {
+        font-size: 1em;
+    }
+}

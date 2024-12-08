@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>VOIDZERO</title>
+<meta charset="UTF-8">
+<meta name="description" content="VOIDZERO METAL BAND">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="header-logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="header-right">
+                    <h1><em>VOID_ZERO</em></h1>
+                    <h2>HIGH PRIESTRESS ALBUM: NOW AVALIABLE</h2>
+            </div>
+        </header>
+        
+        <nav>
+            <ol>
+                <li><a href="index.html">home</a></li>
+                <li><a href="album.html">high priestess album</a></li>
+                <li><a href="merch.html">merch</a></li>
+            </ol>
+        </nav>
+        
+        <hr>
+        
+        <main>
+            <div id="products">
+                <div class="product">
+                    <img src="img/tshirt.png" alt="tshirt" class="product-image">
+                    <p>V0ID T33</p>
+                    <p>$60</p>
+                    <button onclick="addToCart('V0ID T33', 60)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="img/tote.png" alt="tote" class="product-image">
+                    <p>V0ID T0T3</p>
+                    <p>$25</p>
+                    <button onclick="addToCart('V0ID T0T3', 25)">Add to Cart</button>
+                </div>
+            </div>
+        
+            <hr>
+        
+            <h2>Your Cart</h2>
+            <div id="cart">
+                <p>No items in cart</p>
+            </div>
+            <p>Total: $<span id="total">0</span></p>
+        </main>
+    <hr>
+        <footer>
+            <nav>
+                <ol>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="album.html">high priestess album</a></li>
+                    <li><a href="merch.html">merch</a></li>
+                </ol>
+            </nav>
+            <p>METALLIA RECORDS. 2024 VOID ZERO. All rights Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
